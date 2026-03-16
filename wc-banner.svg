@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500">
+  <defs>
+    <linearGradient id="bannerbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#0a1a2a"/>
+      <stop offset="100%" style="stop-color:#0f0f23"/>
+    </linearGradient>
+    <linearGradient id="bannerrays" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00f5d4;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#00f5d4;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#9b5de5;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bannerbg)"/>
+  
+  <!-- Subtle rays -->
+  <polygon points="750,0 1500,500 0,500" fill="url(#bannerrays)"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#00f5d4" stroke-width="0.5" opacity="0.1">
+    <line x1="0" y1="100" x2="1500" y2="100"/>
+    <line x1="0" y1="200" x2="1500" y2="200"/>
+    <line x1="0" y1="300" x2="1500" y2="300"/>
+    <line x1="0" y1="400" x2="1500" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="900" y1="0" x2="900" y2="500"/>
+    <line x1="1200" y1="0" x2="1200" y2="500"/>
+  </g>
+  
+  <!-- Central eye/orb -->
+  <circle cx="750" cy="250" r="120" fill="none" stroke="#00f5d4" stroke-width="3" opacity="0.8"/>
+  <circle cx="750" cy="250" r="90" fill="none" stroke="#9b5de5" stroke-width="2" opacity="0.6"/>
+  <circle cx="750" cy="250" r="60" fill="none" stroke="#f15bb5" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Pupil -->
+  <ellipse cx="750" cy="250" rx="20" ry="35" fill="#00f5d4"/>
+  
+  <!-- Glowing center -->
+  <circle cx="750" cy="250" r="30" fill="#00f5d4" opacity="0.2"/>
+  
+  <!-- Top cloud arc -->
+  <path d="M550 150 Q750 80 950 150" fill="none" stroke="#1a1a2e" stroke-width="40" opacity="0.5"/>
+  <path d="M550 150 Q750 80 950 150" fill="none" stroke="#00f5d4" stroke-width="3"/>
+  
+  <!-- Bottom cloud arc -->
+  <path d="M550 350 Q750 420 950 350" fill="none" stroke="#1a1a2e" stroke-width="40" opacity="0.5"/>
+  <path d="M550 350 Q750 420 950 350" fill="none" stroke="#00f5d4" stroke-width="3"/>
+  
+  <!-- Side decorations -->
+  <circle cx="200" cy="150" r="8" fill="#00f5d4" opacity="0.5"/>
+  <circle cx="1300" cy="150" r="8" fill="#9b5de5" opacity="0.5"/>
+  <circle cx="200" cy="350" r="6" fill="#f15bb5" opacity="0.4"/>
+  <circle cx="1300" cy="350" r="6" fill="#00f5d4" opacity="0.4"/>
+  
+  <!-- Scan lines -->
+  <line x1="400" y1="220" x2="1100" y2="220" stroke="#00f5d4" stroke-width="1" opacity="0.3"/>
+  <line x1="400" y1="250" x2="1100" y2="250" stroke="#9b5de5" stroke-width="1" opacity="0.3"/>
+  <line x1="400" y1="280" x2="1100" y2="280" stroke="#f15bb5" stroke-width="1" opacity="0.3"/>
+</svg>
