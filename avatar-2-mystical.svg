@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a2e"/>
+      <stop offset="50%" style="stop-color:#2d1b4e"/>
+      <stop offset="100%" style="stop-color:#0a0a1a"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#9b5de5"/>
+      <stop offset="100%" style="stop-color:#00f5d4"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Dark mystical background -->
+  <rect width="400" height="400" fill="url(#bg2)"/>
+  
+  <!-- Orb behind head -->
+  <circle cx="200" cy="180" r="100" fill="url(#orb)" opacity="0.4"/>
+  
+  <!-- Hood/wizard shape -->
+  <path d="M100 280 Q120 100 200 60 Q280 100 300 280 L300 400 L100 400 Z" fill="#1a1a2e" stroke="#9b5de5" stroke-width="2"/>
+  
+  <!-- Face shadow -->
+  <ellipse cx="200" cy="220" rx="55" ry="50" fill="#0a0a1a"/>
+  
+  <!-- Mystical eyes -->
+  <ellipse cx="175" cy="210" rx="12" ry="18" fill="#00f5d4"/>
+  <ellipse cx="225" cy="210" rx="12" ry="18" fill="#00f5d4"/>
+  <circle cx="175" cy="205" r="5" fill="#fff"/>
+  <circle cx="225" cy="205" r="5" fill="#fff"/>
+  
+  <!-- Mystical markings -->
+  <circle cx="200" cy="150" r="3" fill="#f15bb5"/>
+  <circle cx="150" cy="140" r="2" fill="#9b5de5"/>
+  <circle cx="250" cy="140" r="2" fill="#9b5de5"/>
+  <circle cx="130" cy="200" r="2" fill="#00f5d4"/>
+  <circle cx="270" cy="200" r="2" fill="#00f5d4"/>
+  
+  <!-- Floating particles -->
+  <circle cx="80" cy="100" r="3" fill="#9b5de5" opacity="0.8"/>
+  <circle cx="320" cy="120" r="2" fill="#00f5d4" opacity="0.8"/>
+  <circle cx="60" cy="250" r="2" fill="#f15bb5" opacity="0.6"/>
+  <circle cx="340" cy="280" r="3" fill="#9b5de5" opacity="0.7"/>
+</svg>

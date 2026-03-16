@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fee440"/>
+      <stop offset="100%" style="stop-color:#f15bb5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg1)"/>
+  
+  <!-- Simple geometric wizard silhouette -->
+  <circle cx="200" cy="200" r="130" fill="none" stroke="#fee440" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Wizard hat - triangle -->
+  <path d="M140 260 L200 80 L260 260 Z" fill="#fee440"/>
+  <ellipse cx="200" cy="260" rx="70" ry="15" fill="#fee440"/>
+  
+  <!-- Simple face -->
+  <ellipse cx="200" cy="230" rx="50" ry="40" fill="#0f0f23"/>
+  
+  <!-- Glowing eyes -->
+  <circle cx="180" cy="220" r="8" fill="#fee440"/>
+  <circle cx="220" cy="220" r="8" fill="#fee440"/>
+  
+  <!-- Beard - simple arc -->
+  <path d="M160 250 Q200 320 240 250" fill="#fee440"/>
+  
+  <!-- Small star accent -->
+  <text x="320" y="80" font-size="24">✦</text>
+  <text x="60" y="320" font-size="20">✦</text>
+</svg>
