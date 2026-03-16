@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="wc3bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#0a1a2a"/>
+    </linearGradient>
+    <radialGradient id="wc3glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00f5d4"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#wc3bg)"/>
+  
+  <!-- Central eye/orb -->
+  <circle cx="200" cy="200" r="100" fill="url(#wc3glow)" opacity="0.3"/>
+  <circle cx="200" cy="200" r="80" fill="none" stroke="#00f5d4" stroke-width="2"/>
+  <circle cx="200" cy="200" r="60" fill="none" stroke="#9b5de5" stroke-width="2"/>
+  <circle cx="200" cy="200" r="40" fill="none" stroke="#f15bb5" stroke-width="2"/>
+  
+  <!-- Pupil -->
+  <ellipse cx="200" cy="200" rx="15" ry="25" fill="#00f5d4"/>
+  
+  <!-- Eyelids - creating the cloud shape -->
+  <path d="M80 150 Q200 80 320 150" fill="none" stroke="#1a1a2e" stroke-width="30"/>
+  <path d="M80 150 Q200 80 320 150" fill="none" stroke="#00f5d4" stroke-width="3"/>
+  
+  <path d="M80 250 Q200 320 320 250" fill="none" stroke="#1a1a2e" stroke-width="30"/>
+  <path d="M80 250 Q200 320 320 250" fill="none" stroke="#00f5d4" stroke-width="3"/>
+  
+  <!-- Scan lines -->
+  <line x1="100" y1="180" x2="300" y2="180" stroke="#00f5d4" stroke-width="1" opacity="0.5"/>
+  <line x1="100" y1="200" x2="300" y2="200" stroke="#9b5de5" stroke-width="1" opacity="0.5"/>
+  <line x1="100" y1="220" x2="300" y2="220" stroke="#f15bb5" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Corner accents -->
+  <path d="M50 50 L80 50 L80 60 L60 60 L60 80 L50 80 Z" fill="#00f5d4"/>
+  <path d="M350 50 L320 50 L320 60 L340 60 L340 80 L350 80 Z" fill="#9b5de5"/>
+  <path d="M50 350 L80 350 L80 340 L60 340 L60 320 L50 320 Z" fill="#f15bb5"/>
+  <path d="M350 350 L320 350 L320 340 L340 340 L340 320 L350 320 Z" fill="#00f5d4"/>
+</svg>
