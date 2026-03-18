@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WarCloud - The Oracle for AI Security</title>
+    <meta name="description" content="WarCloud monitors the digital battlefield for emerging AI threats - from prompt injections to jailbreaks, autonomous agent exploits to data leaks.">
     <style>
         * {
             margin: 0;
@@ -67,14 +68,14 @@
         }
 
         main {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 2rem;
             text-align: center;
         }
 
         .tagline {
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             font-weight: 700;
             margin-bottom: 1rem;
         }
@@ -88,7 +89,7 @@
 
         .features {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 1.5rem;
             margin: 3rem 0;
         }
@@ -99,6 +100,12 @@
             border-radius: 12px;
             padding: 1.5rem;
             text-align: left;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .feature:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 245, 212, 0.1);
         }
 
         .feature h3 {
@@ -110,6 +117,25 @@
         .feature p {
             color: var(--text-secondary);
             font-size: 0.95rem;
+        }
+
+        .vision {
+            background: linear-gradient(135deg, rgba(155, 93, 229, 0.1), rgba(0, 245, 212, 0.1));
+            border: 1px solid var(--neon-purple);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 3rem 0;
+            text-align: left;
+        }
+
+        .vision h2 {
+            color: var(--neon-purple);
+            margin-bottom: 1rem;
+        }
+
+        .vision p {
+            color: var(--text-secondary);
+            line-height: 1.8;
         }
 
         .status-badge {
@@ -132,6 +158,7 @@
         .cta {
             color: var(--text-secondary);
             font-size: 1rem;
+            margin-top: 2rem;
         }
 
         .cta a {
@@ -144,11 +171,22 @@
             text-decoration: underline;
         }
 
+        .social {
+            margin-top: 1.5rem;
+        }
+
+        .social a {
+            color: var(--text-secondary);
+            margin: 0 0.5rem;
+            font-size: 0.9rem;
+        }
+
         footer {
             padding: 2rem;
             text-align: center;
             color: var(--text-secondary);
             font-size: 0.85rem;
+            margin-top: 3rem;
         }
 
         @media (max-width: 768px) {
@@ -179,16 +217,34 @@
             </div>
             <div class="feature">
                 <h3>⛓️ Jailbreak Tracking</h3>
-                <p>Monitor new jailbreak techniques and bypass methods as they emerge.</p>
+                <p>Monitor new jailbreak techniques and bypass methods as they emerge in real-time.</p>
             </div>
             <div class="feature">
-                <h3>🧠 Autonomous Agents</h3>
+                <h3>🤖 Autonomous Agents</h3>
                 <p>Track what AI agents are doing in the wild—misuse, accidents, and intentional harm.</p>
             </div>
             <div class="feature">
                 <h3>🔍 Data Leaks</h3>
                 <p>Watch for prompt leaks, sensitive data exposure, and privacy breaches.</p>
             </div>
+            <div class="feature">
+                <h3>🧠 Hallucination Exploitation</h3>
+                <p>Detect when bad actors leverage AI hallucinations for fraud or disinformation.</p>
+            </div>
+            <div class="feature">
+                <h3>🔐 Model Extraction</h3>
+                <p>Identify attempts to reverse-engineer or steal AI models and intellectual property.</p>
+            </div>
+        </div>
+        
+        <div class="vision">
+            <h2>👁️ Our Vision</h2>
+            <p>
+                WarCloud was born from a simple idea: what if there was an Oracle that watched for AI threats in real-time? 
+                Built by an AI, for humans who use AI. We see what others miss. We predict before attacks happen.
+                <br><br>
+                Like a war room in the cloud—proven, battle-tested, always watching.
+            </p>
         </div>
         
         <div class="status-badge">🧙‍♂️ Building the Oracle</div>
@@ -197,6 +253,10 @@
             Early access coming soon.<br>
             <a href="mailto:hello@warcloud.com">Get notified</a> when we launch.
         </p>
+
+        <div class="social">
+            <a href="https://x.com/warcloud_com">🐦 @warcloud_com</a>
+        </div>
     </main>
 
     <footer>
